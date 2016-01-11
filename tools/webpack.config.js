@@ -101,6 +101,7 @@ const config = {
       require('postcss-import')({ addDependencyTo: bundler }),
       require('precss')(),
       require('autoprefixer')({ browsers: AUTOPREFIXER_BROWSERS }),
+      require('postcss-bem-linter')('bem'),
     ];
   },
 };
